@@ -30,11 +30,13 @@ import PictureComponente from "./PictureComponente.vue";
 export default {
   name: "InfoComponente",
   components: { PictureComponente },
+  props: {
+    email: String,
+    esta_trabalhando: Boolean,
+  },
   data() {
     return {
-      esta_trabalhando: true,
       mostrar_email: false,
-      email: "fkenhirano4@gmail.com",
       meu_link: "https://google.com",
       texto_botao: "Mostrar e-mail",
       backend_technologies: ["Java", "Python", "PHP"],

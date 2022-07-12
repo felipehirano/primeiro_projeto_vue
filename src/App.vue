@@ -1,5 +1,5 @@
 <template>
-  <HeaderComponente />
+  <HeaderComponente :esta_logado="true" />
   <PrimeiroComponente />
   <LifeCycleComponente />
   <PessoaComponente />
